@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 78c46f1d3c0218847a1889f96e9eeaf6
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - topPipeAsset: {fileID: 5931029900470896750, guid: 6f00eab8d3f43df42a9a37facebcb752,
+      type: 3}
+  - bottomPipeAsset: {fileID: 2343501079329606288, guid: 1e1ed72eeb9e95b4ab535302b5ba28fa,
+      type: 3}
+  - followTransform: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
