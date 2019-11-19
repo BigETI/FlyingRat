@@ -87,7 +87,7 @@ namespace FlyingRat.Managers
                             }
                             break;
                     }
-                    Time.timeScale = ((gameState == EGameState.Playing) ? 1.0f : 0.0f);
+                    Time.timeScale = (((gameState == EGameState.Playing) || (gameState == EGameState.Death)) ? 1.0f : 0.0f);
                 }
             }
         }

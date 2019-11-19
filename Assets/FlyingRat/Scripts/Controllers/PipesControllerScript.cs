@@ -7,10 +7,6 @@ namespace FlyingRat.Controllers
     [ExecuteInEditMode]
     public class PipesControllerScript : MonoBehaviour
     {
-        private static readonly int moveHash = Animator.StringToHash("Move");
-
-        private static readonly int extendRetractHash = Animator.StringToHash("ExtendRetract");
-
         [SerializeField]
         [Range(0.0f, 100.0f)]
         private float pipesDistance = 8.0f;
@@ -38,6 +34,10 @@ namespace FlyingRat.Controllers
 
         [SerializeField]
         private Transform bottomPipeTransform = default;
+
+        private static readonly int moveHash = Animator.StringToHash("Move");
+
+        private static readonly int extendRetractHash = Animator.StringToHash("ExtendRetract");
 
         public float ScreenHeight => Mathf.Max(screenHeight, 0.0f);
 
